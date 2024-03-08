@@ -1,11 +1,6 @@
 body {
   background: rgb(5, 1, 62);
-  background: linear-gradient(
-    180deg,
-    rgba(5, 1, 62, 1) 0%,
-    rgba(16, 0, 40, 1) 98%,
-    rgba(5, 1, 62, 1) 100%
-  );
+
   font-family: Arial, sans-serif;
   color: #f2f2f2;
   margin: 0;
@@ -23,14 +18,14 @@ table {
 }
 
 th,
-td {rgb(5, 1, 62
+td {
   border: 1px solid #dddddd;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #05004900;
 }
 
 .button-19 {
