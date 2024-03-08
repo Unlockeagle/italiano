@@ -48,12 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Crear tabla
   var table =
-    "<table><tr><th>Tiempo Verbal:</th><th>Usos: 🤌</th><th>Ejemplos:</th></tr>";
+    "<table><tr><th>Tiempo Verbal =====> Usos: 🤌</th><th>Ejemplos:</th></tr>";
 
   data.forEach(function (item) {
     table += "<tr>";
-    table += "<td>" + item.tiempo + "</td>";
-    table += "<td>" + item.usos + "</td>";
+    table +=
+      "<td>" + "- " + item.tiempo + "  : " + "  <br> " + item.usos + "</td>";
     table += "<td><ul>";
     item.ejemplos.forEach(function (ejemplo) {
       table += "<li>" + ejemplo + "</li>";
