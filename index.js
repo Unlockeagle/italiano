@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       tiempo: "Passato remoto",
       usos: "Expresar acciones que ocurrieron en el pasado lejano. Se utiliza principalmente en la lengua escrita o en registros formales.",
       ejemplos: ["Mangiò (Él/Ella comió)", "Partì (Él/Ella partió)"],
+      enlasePassatoRemoto: "./page/passatoRemoto.html",
     },
     {
       tiempo: "Passato prossimo",
@@ -53,7 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
   data.forEach(function (item) {
     table += "<tr>";
     table +=
-      "<td>" + "- " + item.tiempo + "  : " + "  <br> " + item.usos + "</td>";
+      "<td>" +
+      "- " +
+      item.tiempo +
+      "  : " +
+      "  <br> " +
+      " <br> " +
+      item.usos +
+      "</td>";
     table += "<td><ul>";
     item.ejemplos.forEach(function (ejemplo) {
       table += "<li>" + ejemplo + "</li>";
